@@ -1,0 +1,71 @@
+body{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:Arial,sans-serif;
+    background-color: rgb(253, 220, 253);
+}
+h1{
+    padding:15px;
+    margin:10px;
+    text-align: center;
+}
+.myrow{
+    width: 100%;
+    display: inline-block;
+}
+.mycol12{
+    width: 95%;
+    margin:10px;
+    padding:10px;
+}
+.mycol6{
+    width: 45%;
+    margin:10px;
+    padding:10px;
+}
+.mycol4{
+    width: 29%;
+    margin:10px;
+    padding:10px;
+}
+
+.gender-options {
+    display: flex;
+    align-items: center;
+   
+}
+
+.gender-options input[type="radio"] {
+    margin: 18px 0; /* Adjust margins around radio buttons */
+    
+}
+
+.all_col{
+    float: left;
+    margin: 10px;
+    /* border: 1px solid #000;; */
+}
+.inputtext{
+    width: 98%;
+    padding: 13px;
+    border-radius: 10px;
+    border-color:#667292;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.submit_button{
+    width:10%;
+    padding:10px;
+    margin:10px;
+    border-radius: 10px;
+    border-color:#667292;
+   
+}
+.color_red{
+    color: red;
+}
